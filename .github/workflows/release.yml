@@ -42,11 +42,11 @@ jobs:
           CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CR_SKIP_EXISTING: "true"
 
-      - name: README Template
-        uses: probablykasper/readme-template-action@v1.0.0
-        with:
-          TOKEN: ${{ secrets.README_TEMPLATE_TOKEN }}
-          template: README.md.tmpl
+      #- name: README Template
+      #  uses: probablykasper/readme-template-action@v1.0.0
+      #  with:
+      #    TOKEN: ${{ secrets.README_TEMPLATE_TOKEN }}
+      #    template: README.md.tmpl
 
       # create pages for docs
       - name: Create pages for docs
