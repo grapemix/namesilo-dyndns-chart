@@ -1,0 +1,7 @@
+site_name: namesilo-dyndns 
+site_author: grapemix
+site_description: Helm chart for grapemix/namesilo-dyndns 
+# Site URL needed by the social plugin
+site_url: https://grapemix.github.io/namesilo-dyndns/
+# Copyright notice in footer
+copyright: GPG v3 grapemix
